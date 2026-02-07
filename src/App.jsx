@@ -9,7 +9,7 @@ function App() {
   const [newTodo, setNewTodo] = useState("");
   const [oldTodo, setOldTodo] = useState("");
   const [isUpdating, setIsUpdating] = useState(false);
-  const Base_URL = "http://localhost:8008/todos";
+  const Base_URL = "https://todo-server-6t28.onrender.com/";
 
   const loadTodos = async () => {
     console.log("Loading todos...");
