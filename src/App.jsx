@@ -79,7 +79,7 @@ function App() {
                   {
                     setIsUpdating(true);
                     setOldTodo(todo);
-                    setNewTodo(todo);
+                    setNewTodo(todo.name);
                   }
                   }
                   />
